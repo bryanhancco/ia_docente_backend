@@ -1,0 +1,24 @@
+{
+  "name": "minedu-rag-api",
+  "version": "1.0.0",
+  "description": "API REST para sistema educativo MINEDU con RAG",
+  "main": "api/api.py",
+  "scripts": {
+    "start": "uvicorn api.api:app --host 0.0.0.0 --port $PORT",
+    "dev": "uvicorn api.api:app --reload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryanhancco/minedu-hackathon.git"
+  },
+  "keywords": [
+    "fastapi",
+    "rag",
+    "education",
+    "minedu",
+    "chromadb",
+    "langchain"
+  ],
+  "author": "bryanhancco",
+  "license": "MIT"
+}

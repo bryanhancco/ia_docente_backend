@@ -1,0 +1,15 @@
+langchain-google-genai
+langchain_community
+tiktoken
+google-generativeai
+pypdf
+chromadb
+python-dotenv
+sentence_transformers
+supabase
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+aiofiles
+requests
